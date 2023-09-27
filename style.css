@@ -1,0 +1,148 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+  box-sizing: border-box;
+}
+
+/* Body styles */
+body {
+  background: #f4f4f4;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  margin: 0;
+}
+
+/* App container styles */
+.app {
+  background: #fff;
+  width: 90%;
+  max-width: 600px;
+  border-radius: 10px;
+  padding: 30px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Header styles */
+.app h1 {
+  font-size: 25px;
+  color: #333;
+  font-weight: 600;
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 30px;
+}
+
+/* Quiz section styles */
+.quiz {
+  padding: 20px 0;
+}
+
+/* Question heading styles */
+.quiz h2 {
+  font-size: 18px;
+  color: #222;
+  font-weight: 600;
+}
+
+/* Answer button styles */
+.btn {
+  background: #007bff;
+  color: #fff;
+  font-weight: 500;
+  width: 100%;
+  border: none;
+  padding: 10px;
+  margin: 10px 0;
+  text-align: left;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background 0.4s, color 0.4s;
+}
+
+.btn:hover:not([disabled]) {
+  background: #0056b3;
+}
+
+.btn:disabled {
+  cursor: no-drop;
+}
+
+/* Next button styles */
+#next-btn {
+  background: #001e4d;
+  color: #fff;
+  font-weight: 500;
+  width: 150px;
+  border: 0;
+  padding: 10px;
+  margin: 20px auto 0;
+  border-radius: 4px;
+  cursor: pointer;
+  display: none;
+}
+
+
+/* Flag container styles */
+#flag-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 100%;
+  margin-top: 10px;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+/* Flag image styles */
+#flag {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+/* Play Again button styles */
+#play-again-btn {
+  background: #007BFF;
+  color: #fff;
+  font-weight: 500;
+  width: 150px;
+  border: 0;
+  padding: 10px;
+  margin: 20px auto 0;
+  border-radius: 4px;
+  cursor: pointer;
+  display: none;
+}
+
+#play-again-btn:hover {
+  background: #0056b3;
+}
+
+/* Quiz result message styles */
+.result-message {
+  font-size: 20px;
+  color: #4CAF50;
+  text-align: center;
+  margin-top: 20px;
+}
+
+/* Correct answer button styles */
+.correct {
+  background: #4CAF50;
+}
+
+/* Incorrect answer button styles */
+.incorrect {
+  background: #F44336;
+}
+/* Add this CSS code to style the footer */
+footer {
+  background-color: #333; /* Background color for the footer */
+  color: #fff; /* Text color for the footer content */
+  text-align: center; /* Center-align the text */
+  padding: 10px 0; /* Add some padding to the top and bottom of the footer */
+}
+

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Simple Quiz Game</title>
+</head>
+<body>
+  <div class="app">
+    <h1>Test Your Basic Knowledge</h1>
+    <div class="quiz">
+      <div id="progress-bar">
+        <div id="progress"></div>
+      </div>
+      <h2 id="question">What is the capital of Nepal?</h2>
+      <div id="flag-container"> 
+        <img id="flag" src="myanmar_flag.png" alt="Flag">
+      </div>
+      <div id="answer-buttons">
+        <button class="btn"> Answer 1</button>
+        <button class="btn"> Answer 2</button>
+        <button class="btn"> Answer 3</button>
+        <button class="btn"> Answer 4</button>
+        <button class="btn"> Answer 5</button>
+        <button class="btn"> Answer 6</button>
+        <button class="btn"> Answer 7</button>
+        <button class="btn"> Answer 8</button>
+        <button class="btn"> Answer 9</button>
+        <button class="btn"> Answer 10</button>
+      </div>
+      <div id="nav-buttons">
+        
+        <button id="next-btn">Next</button>
+      </div>
+      <button id="play-again-btn" style="display: none;">Play Again</button>
+      <div id="result-container">
+        <p id="quiz-result" class="result-message"></p>
+      </div>
+    </div>
+  </div>
+    <button id="play-again-btn" class="btn">Play Again</button>
+  <script src="script.js"></script>
+</body>
+</html>
