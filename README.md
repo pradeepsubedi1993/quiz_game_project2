@@ -58,4 +58,9 @@ These are the steps taken during the validation process;
 
 ## Website Deployment
 * After committing the codes in terminal, the website was deployed using GitHub pages.
-  Live version of the quiz game website can be found [![here](https://pradeepsubedi1993.github.io/quiz_game_project2/])
+  Live version of the quiz game website can be found [here](https://pradeepsubedi1993.github.io/quiz_game_project2/])
+
+## Acknowledgements
+
+ - YouTube Tuorial by [GreatStackDev](https://www.youtube.com/@GreatStackDev))
+ - Fonts [Font Awesome](https://fontawesome.com/)
